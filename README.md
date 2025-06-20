@@ -8,11 +8,8 @@ Wanderlust is a travel blogging web application that allows users to document, s
 ## ✨ Features
 
 - 🧳 Create, edit, and publish travel blogs
-- 🌐 Explore travel stories by location, tags, or user
+- 🌐 Explore travel stories by location or tags
 - 📸 Upload travel photos and embed them in your posts
-- 💬 Comment and interact with other travelers
-- 🧭 Search and filter travel stories
-- 🛡️ User authentication and profile management
 
 ## 🚀 Getting Started
 
@@ -138,9 +135,16 @@ Wanderlust is a travel blogging web application that allows users to document, s
     
     ```bash
     
-    docker-compose up
+    docker-compose up -d
     ```
-    This command will build the Docker images and start the containers for the backend and frontend, enabling you to access the Wanderlust application.
+    This command will build the Docker images and start the containers for the backend and frontend in detachable mode, enabling you to access the Wanderlust application.
+    
+8.  **Import sample data**
+
+    ```bash
+    docker exec -it mongo mongoimport --db wanderlust --collection posts --file ./data/sample_posts.json --jsonArray
+    ```
+    This command will add sample data to your application.  
 
 # 📸 Screenshots
 
