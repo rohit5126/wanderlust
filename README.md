@@ -1,11 +1,10 @@
-## 🎯 Goal of this project
+# 🌍 Wanderlust – Travel Blogging Platform
 
-At its core, this project embodies two important aims:
+Wanderlust is a travel blogging web application that allows users to document, share, and explore travel experiences from around the world. Whether you're a solo traveler, a group adventurer, or just someone who loves to explore from the screen, Wanderlust makes it easy to share your journey and get inspired by others.
 
-1. **Start Your Open Source Journey**: It's aimed to kickstart your open-source journey. Here, you'll learn the basics of Git and get a solid grip on the MERN stack and I strongly believe that learning and building should go hand in hand.
-2. **React Mastery**: Once you've got the basics down, a whole new adventure begins of mastering React. This project covers everything, from simple form validation to advanced performance enhancements. And I've planned much more cool stuff to add in the near future if the project hits more number of contributors.
+![Wanderlust Banner](link-to-your-screenshot-or-banner-image)
 
-_I'd love for you to make the most of this project - it's all about learning, helping, and growing in the open-source world._
+---
 
 ## Setting up the project locally
 
