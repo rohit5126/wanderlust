@@ -121,14 +121,14 @@ Wanderlust is a travel blogging web application that allows users to document, s
     > Update the .env file in both the frontend and backend directory and add:
     
    
-    **Frontend - .env.sample**
+    **Backend - .env.sample**
     ```ini
     MONGODB_URI="mongodb://mongo/wanderlust"
     REDIS_URL="redis:6379"
     CORS_ORIGIN="http://13.233.126.24:5173"  #add ip address of ec2 instance on which app is running"
     
     ```
-    **Backend - .env.sample**
+    **Frontend - .env.sample**
     ```ini
     VITE_API_PATH="http://13.233.126.24:5000"  #add ip add of ec2 instance on which app is running
     ```
