@@ -5,10 +5,23 @@ Wanderlust is a travel blogging web application that allows users to document, s
 ![Wanderlust Banner](link-to-your-screenshot-or-banner-image)
 
 ---
+## ✨ Features
+
+- 🧳 Create, edit, and publish travel blogs
+- 🌐 Explore travel stories by location, tags, or user
+- 📸 Upload travel photos and embed them in your posts
+- 💬 Comment and interact with other travelers
+- 🧭 Search and filter travel stories
+- 🛡️ User authentication and profile management
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js and npm
+- MongoDB installed
 
 ## Setting up the project locally
-
-### Setting up the Backend
 
 1. **Fork and Clone the Repository**
 
@@ -82,7 +95,7 @@ Wanderlust is a travel blogging web application that allows users to document, s
 4. **Launch the Development Server**
 
    ```bash
-   npm run dev
+   npm run dev -- --host  #(use --host to specify the network address of a host machine)
    ```
 
 ### Setting up with Docker
@@ -91,10 +104,9 @@ Wanderlust is a travel blogging web application that allows users to document, s
     
 2.  **Clone the Repository**
     
-   ``` bash
-    
+    ``` bash
     git clone https://github.com/{your-username}/wanderlust.git
-   ``` 
+    ``` 
 3.  **Navigate to the Project Directory**
     
     ```bash
@@ -103,8 +115,24 @@ Wanderlust is a travel blogging web application that allows users to document, s
     
     ```
 4.  **Update Environment Variables**  - If you anticipate the IP address of the instance might change, update the `.env.sample` file with the new IP address.
+   
+5.  **Environment Variables**
+    
+    > Update the .env file in both the frontend and backend directory and add:
+    
+   
+    **Frontend - .env.sample**
+    ```bash
+    ini
+    
+    ```
+    **Backend - .env.sample**
+    ```bash
+    nhg
+    ```
 
-5.  **Run Docker Compose**
+
+7.  **Run Docker Compose**
     
     ```bash
     
