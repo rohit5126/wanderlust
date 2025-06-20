@@ -148,7 +148,7 @@ Wanderlust is a travel blogging web application that allows users to document, s
 
 # 📸 Screenshots
 
-Home page
+![Wanderlust Banner](./images/Home page.png)
 
 Blog post creation page
 
