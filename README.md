@@ -130,7 +130,7 @@ Wanderlust is a travel blogging web application that allows users to document, s
     ```
     **Backend - .env.sample**
     ```ini
-    
+    VITE_API_PATH="http://13.233.126.24:5000"  #add ip add of ec2 instance on which app is running
     ```
 
 
@@ -142,12 +142,17 @@ Wanderlust is a travel blogging web application that allows users to document, s
     ```
     This command will build the Docker images and start the containers for the backend and frontend, enabling you to access the Wanderlust application.
 
-## 🌟 Ready to Contribute?
+# 📸 Screenshots
 
-Kindly go through [CONTRIBUTING.md](https://github.com/krishnaacharyaa/wanderlust/blob/main/.github/CONTRIBUTING.md) to understand everything from setup to contributing guidelines.
+Home page
 
-## 💖 Show Your Support
+Blog post creation page
 
-If you find this project interesting and inspiring, please consider showing your support by starring it on GitHub! Your star goes a long way in helping me reach more developers and encourages me to keep enhancing the project.
+User profile
+
+
+# 🙋‍♀️ Acknowledgements
+Thanks to all the open-source libraries and APIs that made this project possible.
+
 
 🚀 Feel free to get in touch with me for any further queries or support, happy to help :)
