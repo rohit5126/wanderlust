@@ -122,13 +122,15 @@ Wanderlust is a travel blogging web application that allows users to document, s
     
    
     **Frontend - .env.sample**
-    ```bash
-    ini
+    ```ini
+    MONGODB_URI="mongodb://mongo/wanderlust"
+    REDIS_URL="redis:6379"
+    CORS_ORIGIN="http://13.233.126.24:5173"  #add ip address of ec2 instance on which app is running"
     
     ```
     **Backend - .env.sample**
-    ```bash
-    nhg
+    ```ini
+    
     ```
 
 
