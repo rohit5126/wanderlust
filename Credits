@@ -1,0 +1,12 @@
+## 🙏 Credits & Disclaimer
+
+This project was originally developed by **[krishnaacharyaa]**. I do **not claim ownership** of the original application code, design, or core functionality.
+
+My contributions are focused on improving and managing the **DevOps aspects** of the project, including:
+
+- Dockerizing the application
+- Setting up a CI/CD pipeline (GitHub Actions / Jenkins / etc.)
+- Environment management and automation scripts
+- Deployment to cloud (e.g., AWS, Azure, or any platform used)
+
+All original copyrights belong to the respective author.
