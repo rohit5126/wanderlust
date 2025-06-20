@@ -2,7 +2,7 @@
 
 Wanderlust is a travel blogging web application that allows users to document, share, and explore travel experiences from around the world. Whether you're a solo traveler, a group adventurer, or just someone who loves to explore from the screen, Wanderlust makes it easy to share your journey and get inspired by others.
 
-![Wanderlust Banner](link-to-your-screenshot-or-banner-image)
+![Wanderlust Banner](./images/Banner.png)
 
 ---
 ## ✨ Features
@@ -150,9 +150,10 @@ Wanderlust is a travel blogging web application that allows users to document, s
 
 ![Wanderlust Banner](./images/Banner.png)
 
-Blog post creation page
+========================================================================================================================================================================================
 
-User profile
+![Create_post](./images/create_post.png)
+
 
 
 # 🙋‍♀️ Acknowledgements
