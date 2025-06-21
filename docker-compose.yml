@@ -8,8 +8,6 @@ services:
     ports:
       - "27017:27017"
 
-
-
   backend:
     container_name: backend
     build: ./backend
@@ -32,7 +30,7 @@ services:
     restart: unless-stopped
     image: redis:7.0.5-alpine
     expose:
-      - 6379
+        - 6379
     depends_on:
       - mongodb
 
