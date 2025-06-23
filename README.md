@@ -182,15 +182,19 @@ The CI/CD process includes:
 
 - Docker 
 
-Create pipeline job pointing to this GitHub repo(Jenkinsfile)
+
+## Create pipeline job pointing to this GitHub repo(Jenkinsfile)
+![Wanderlust Github](./images/Github.png)
+
+
 
 # 📸 Screenshots
 
-![Wanderlust Banner](./images/Banner.png)
+![Wanderlust CI_CD](./images/CI_CD.png)
 
 ========================================================================================================================================================================================
 
-![Create_post](./images/create_post.png)
+![SonarQube](./images/Sonarqube.png)
 
 
 
