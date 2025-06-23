@@ -11,6 +11,25 @@ Wanderlust is a travel blogging web application that allows users to document, s
 - 🌐 Explore travel stories by location or tags
 - 📸 Upload travel photos and embed them in your posts
 
+## 🚀 Tech Stack
+- **Build Tool**: NPM
+- **CI/CD**: Jenkins (Declarative Pipeline)
+- **Code Quality**: SonarQube with Quality Gates
+- **Dependency Scanning**: OWASP Dependency-Check
+- **Security Scanning**: Trivy
+- **Containerization**: Docker + Docker Compose
+- **SCM**: GitHub
+
+## 🧩 CI/CD Pipeline Overview
+
+The CI/CD process includes:
+
+1. **Code Checkout**: From GitHub (main branch)
+2. **Static Code Analysis**: Using SonarQube (with Quality Gate enforcement)
+3. **Dependency Scanning**: Using OWASP Dependency-Check
+4. **File System Scan**: Using Trivy
+5. **Docker Build and Deploy**: Using Docker Compose
+
 ## 🚀 Getting Started
 
 ### Prerequisites
@@ -117,7 +136,6 @@ Wanderlust is a travel blogging web application that allows users to document, s
     
     > Update the .env file in both the frontend and backend directory and add:
     
-   
     **Backend - .env.sample**
     ```ini
     MONGODB_URI="mongodb://mongo/wanderlust"
@@ -144,7 +162,27 @@ Wanderlust is a travel blogging web application that allows users to document, s
     ```bash
     docker exec -it mongo mongoimport --db wanderlust --collection posts --file ./data/sample_posts.json --jsonArray
     ```
-    This command will add sample data to your application.  
+    This command will add sample data to your application.
+
+## ✅ Jenkins Setup
+
+### Prerequisites
+- Jenkins installed
+- Docker and docker-compose installed
+- Trivy installed
+- Create a sonarQube conatiner using docker.
+
+## Install required Jenkins plugins:
+
+- SonarQube Scanner
+
+- SonarQube Quality Gates
+
+- OWASP Dependency-Check Plugin
+
+- Docker 
+
+Create pipeline job pointing to this GitHub repo(Jenkinsfile)
 
 # 📸 Screenshots
 
