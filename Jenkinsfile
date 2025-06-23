@@ -37,7 +37,6 @@ pipeline{
         stage("Deploy using docker compose"){
             steps{
                 sh "docker-compose up -d"
-                sh "docker exec -it mongo mongoimport --db wanderlust --collection posts --file ./data/sample_posts.json --jsonArray"
             }
         }
     }
