@@ -1,0 +1,8 @@
+replicaCount: 1
+image:
+  repository: rohit5126/frontend
+  pullPolicy: IfNotPresent
+  tag: ""
+service: 
+  Port: 5173
+  nodePort: 31000

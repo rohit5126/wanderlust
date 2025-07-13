@@ -1,0 +1,29 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: {{ .Chart.Name }}-deployment
+  labels:
+    app: {{ .Chart.Name }}
+spec:
+  template:
+    metadata:
+      name: {{ .Chart.Name }}
+      labels:
+        app: {{ .Chart.Name }}
+    spec:
+      containers:
+        - name: {{ .Chart.Name }}
+          image: {{ .Values.image.repository }}
+          ports:
+            - containerPort: {{ .Values.service.Port }}
+          volumeMounts:
+            - mountPath: {{ .Values.volume.path }}
+              name: {{ .Chart.Name }}-storage
+      volumes:
+        - name: {{ .Chart.Name }}-storage
+          persistentVolumeClaim:
+            claimName: {{ .Chart.Name }}-pervc
+  replicas: {{ .Values.replicaCount }}
+  selector:
+    matchLabels:
+      app: {{ .Chart.Name }}

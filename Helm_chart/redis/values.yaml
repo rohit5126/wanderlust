@@ -1,0 +1,6 @@
+image:
+  repository: redis
+  pullPolicy: IfNotPresent
+  tag: ""
+service: 
+  Port: 6379

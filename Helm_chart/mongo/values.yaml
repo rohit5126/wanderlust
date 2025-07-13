@@ -1,0 +1,10 @@
+image:
+  repository: mongo
+  pullPolicy: IfNotPresent
+  tag: ""
+service: 
+  Port: 27017
+volume:
+  storage: 10Gi
+  accessModes: ReadWriteOnce
+  path: /data/db
