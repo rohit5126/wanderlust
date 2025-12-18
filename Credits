@@ -7,6 +7,6 @@ My contributions are focused on improving and managing the **DevOps aspects** of
 - Dockerizing the application
 - Setting up a CI/CD pipeline (GitHub Actions / Jenkins / etc.)
 - Environment management and automation scripts
-- Deployment to cloud (e.g., AWS, Azure, or any platform used)
+- Deployment to cloud using AWS
 
 All original copyrights belong to the respective author.
