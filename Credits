@@ -5,7 +5,7 @@ This project was originally developed by **[krishnaacharyaa]**. I do **not claim
 My contributions are focused on improving and managing the **DevOps aspects** of the project, including:
 
 - Dockerizing the application
-- Setting up a CI/CD pipeline (GitHub Actions / Jenkins / etc.)
+- Setting up a CI/CD pipeline with Jenkins
 - Environment management and automation scripts
 - Deployment to cloud using AWS
 
