@@ -1,8 +1,0 @@
-replicaCount: 1
-image:
-  repository: rohit5126/backend
-  pullPolicy: IfNotPresent
-  tag: ""
-service: 
-  Port: 5000
-  nodePort: 31100
